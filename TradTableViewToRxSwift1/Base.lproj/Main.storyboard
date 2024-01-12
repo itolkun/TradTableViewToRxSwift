@@ -1,24 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HBY-ou-9Mf">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Food Detail View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FoodVC" id="BYZ-38-t0r" customClass="FoodDetailViewController" customModule="TradTableViewToRxSwift1" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburger" translatesAutoresizingMaskIntoConstraints="NO" id="gtw-fi-jvS">
+                                <rect key="frame" x="16" y="79" width="361" height="294"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="294" id="4e4-mc-NS3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gtw-fi-jvS" secondAttribute="trailing" constant="16" id="3Id-gk-rpq"/>
+                            <constraint firstItem="gtw-fi-jvS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FS2-Gq-jrL"/>
+                            <constraint firstItem="gtw-fi-jvS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="i5S-pK-br3"/>
+                            <constraint firstItem="gtw-fi-jvS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="lnv-7K-CLg"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="md6-QA-0Iy"/>
+                    <connections>
+                        <outlet property="foodImageView" destination="gtw-fi-jvS" id="Lzn-Tq-eBj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="732" y="-95"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fXY-hg-ay9">
+            <objects>
+                <viewController id="ZKJ-va-KYB" customClass="ViewController" customModule="TradTableViewToRxSwift1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g7n-8m-bpV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="78S-nw-XB3">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="131" id="bMw-ZB-fgq" customClass="FoodTableViewCell" customModule="TradTableViewToRxSwift1" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bMw-ZB-fgq" id="Yeo-Eg-qpF" customClass="FoodTableViewCell" customModule="TradTableViewToRxSwift1" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="131"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="YN8-AK-RBp">
+                                                    <rect key="frame" x="28" y="14" width="178.33333333333334" height="103"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburger" translatesAutoresizingMaskIntoConstraints="NO" id="q7g-vz-yBT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="104" height="103"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="103" id="RpP-fd-h8f"/>
+                                                                <constraint firstAttribute="width" constant="104" id="hpe-hA-Qv5"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iib-iQ-DEX">
+                                                            <rect key="frame" x="137" y="41.333333333333336" width="41.333333333333343" height="20.333333333333336"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="YN8-AK-RBp" firstAttribute="leading" secondItem="Yeo-Eg-qpF" secondAttribute="leadingMargin" constant="8" id="OpO-Lv-dNZ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="YN8-AK-RBp" secondAttribute="bottom" constant="3" id="eKH-jF-g62"/>
+                                                <constraint firstItem="YN8-AK-RBp" firstAttribute="top" secondItem="Yeo-Eg-qpF" secondAttribute="topMargin" constant="3" id="tb8-V0-rbC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="foodImageView" destination="q7g-vz-yBT" id="QO7-L8-mg8"/>
+                                            <outlet property="foodLabel" destination="Iib-iQ-DEX" id="jhU-Wc-XfQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mw4-NM-ubI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="78S-nw-XB3" firstAttribute="top" secondItem="mw4-NM-ubI" secondAttribute="top" id="0hb-Hp-ief"/>
+                            <constraint firstItem="mw4-NM-ubI" firstAttribute="trailing" secondItem="78S-nw-XB3" secondAttribute="trailing" id="32C-ar-XB2"/>
+                            <constraint firstItem="mw4-NM-ubI" firstAttribute="bottom" secondItem="78S-nw-XB3" secondAttribute="bottom" id="IfL-0D-btK"/>
+                            <constraint firstItem="78S-nw-XB3" firstAttribute="leading" secondItem="mw4-NM-ubI" secondAttribute="leading" id="ZBW-wl-yuT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="txR-TN-i2e"/>
+                    <connections>
+                        <outlet property="tableView" destination="78S-nw-XB3" id="rBW-94-xda"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3S-4G-N9F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="-87"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jyR-wG-h2a">
+            <objects>
+                <navigationController id="HBY-ou-9Mf" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jMI-66-GhR">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZKJ-va-KYB" kind="relationship" relationship="rootViewController" id="C7V-3Q-V6x"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8K-i7-nB7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-709" y="-87"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hamburger" width="360" height="360"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

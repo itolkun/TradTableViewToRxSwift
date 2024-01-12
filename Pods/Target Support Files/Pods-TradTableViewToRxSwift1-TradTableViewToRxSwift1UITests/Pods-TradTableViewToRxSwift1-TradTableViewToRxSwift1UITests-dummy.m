@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests : NSObject
+@end
+@implementation PodsDummy_Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests
+@end

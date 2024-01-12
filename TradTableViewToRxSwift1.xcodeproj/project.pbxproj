@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026B408B439042E360D2AE4A /* Pods_TradTableViewToRxSwift1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC9091E2FFA316DFB022B60 /* Pods_TradTableViewToRxSwift1Tests.framework */; };
 		83AA4C032B4EBD2D0073D3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C022B4EBD2D0073D3EE /* AppDelegate.swift */; };
 		83AA4C052B4EBD2D0073D3EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C042B4EBD2D0073D3EE /* SceneDelegate.swift */; };
 		83AA4C072B4EBD2D0073D3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C062B4EBD2D0073D3EE /* ViewController.swift */; };
@@ -16,6 +17,11 @@
 		83AA4C1A2B4EBD2F0073D3EE /* TradTableViewToRxSwift1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C192B4EBD2F0073D3EE /* TradTableViewToRxSwift1Tests.swift */; };
 		83AA4C242B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C232B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITests.swift */; };
 		83AA4C262B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C252B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITestsLaunchTests.swift */; };
+		83AA4C332B4ED4380073D3EE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C322B4ED4380073D3EE /* Food.swift */; };
+		83AA4C352B4ED4720073D3EE /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C342B4ED4720073D3EE /* FoodTableViewCell.swift */; };
+		83AA4C3F2B4FBF5A0073D3EE /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA4C3E2B4FBF5A0073D3EE /* FoodDetailViewController.swift */; };
+		D2E90B66B3144CE26277BCA7 /* Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B88A937EC0889B77E10845 /* Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests.framework */; };
+		FE97AB99A8B2B8E09AA2EE48 /* Pods_TradTableViewToRxSwift1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789CD65D850ACF91EBF2CC82 /* Pods_TradTableViewToRxSwift1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC9091E2FFA316DFB022B60 /* Pods_TradTableViewToRxSwift1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradTableViewToRxSwift1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBA2C14B54A9A1F47741F72 /* Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.debug.xcconfig"; path = "Target Support Files/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A760479C02D507750BC338C /* Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.release.xcconfig"; path = "Target Support Files/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		68B88A937EC0889B77E10845 /* Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		789CD65D850ACF91EBF2CC82 /* Pods_TradTableViewToRxSwift1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradTableViewToRxSwift1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F086555A9CD9DD286BDE691 /* Pods-TradTableViewToRxSwift1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradTableViewToRxSwift1Tests.debug.xcconfig"; path = "Target Support Files/Pods-TradTableViewToRxSwift1Tests/Pods-TradTableViewToRxSwift1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		83AA4BFF2B4EBD2D0073D3EE /* TradTableViewToRxSwift1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradTableViewToRxSwift1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA4C022B4EBD2D0073D3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AA4C042B4EBD2D0073D3EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		83AA4C1F2B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradTableViewToRxSwift1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA4C232B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradTableViewToRxSwift1UITests.swift; sourceTree = "<group>"; };
 		83AA4C252B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradTableViewToRxSwift1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83AA4C322B4ED4380073D3EE /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		83AA4C342B4ED4720073D3EE /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		83AA4C3E2B4FBF5A0073D3EE /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		922F2B097BFC7DF2B777B50F /* Pods-TradTableViewToRxSwift1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradTableViewToRxSwift1Tests.release.xcconfig"; path = "Target Support Files/Pods-TradTableViewToRxSwift1Tests/Pods-TradTableViewToRxSwift1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD7E1EA5F2E6C2DF7C82DECF /* Pods-TradTableViewToRxSwift1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradTableViewToRxSwift1.release.xcconfig"; path = "Target Support Files/Pods-TradTableViewToRxSwift1/Pods-TradTableViewToRxSwift1.release.xcconfig"; sourceTree = "<group>"; };
+		D890AC4BDAE9B82FAA6A55F9 /* Pods-TradTableViewToRxSwift1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradTableViewToRxSwift1.debug.xcconfig"; path = "Target Support Files/Pods-TradTableViewToRxSwift1/Pods-TradTableViewToRxSwift1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE97AB99A8B2B8E09AA2EE48 /* Pods_TradTableViewToRxSwift1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026B408B439042E360D2AE4A /* Pods_TradTableViewToRxSwift1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E90B66B3144CE26277BCA7 /* Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB37C47B75C820D4B2F39D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D890AC4BDAE9B82FAA6A55F9 /* Pods-TradTableViewToRxSwift1.debug.xcconfig */,
+				BD7E1EA5F2E6C2DF7C82DECF /* Pods-TradTableViewToRxSwift1.release.xcconfig */,
+				3CBA2C14B54A9A1F47741F72 /* Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.debug.xcconfig */,
+				4A760479C02D507750BC338C /* Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.release.xcconfig */,
+				7F086555A9CD9DD286BDE691 /* Pods-TradTableViewToRxSwift1Tests.debug.xcconfig */,
+				922F2B097BFC7DF2B777B50F /* Pods-TradTableViewToRxSwift1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2EC552081D6C4DE791F951EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				789CD65D850ACF91EBF2CC82 /* Pods_TradTableViewToRxSwift1.framework */,
+				68B88A937EC0889B77E10845 /* Pods_TradTableViewToRxSwift1_TradTableViewToRxSwift1UITests.framework */,
+				0AC9091E2FFA316DFB022B60 /* Pods_TradTableViewToRxSwift1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83AA4BF62B4EBD2D0073D3EE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				83AA4C182B4EBD2F0073D3EE /* TradTableViewToRxSwift1Tests */,
 				83AA4C222B4EBD2F0073D3EE /* TradTableViewToRxSwift1UITests */,
 				83AA4C002B4EBD2D0073D3EE /* Products */,
+				2BB37C47B75C820D4B2F39D6 /* Pods */,
+				2EC552081D6C4DE791F951EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +148,12 @@
 				83AA4C022B4EBD2D0073D3EE /* AppDelegate.swift */,
 				83AA4C042B4EBD2D0073D3EE /* SceneDelegate.swift */,
 				83AA4C062B4EBD2D0073D3EE /* ViewController.swift */,
+				83AA4C322B4ED4380073D3EE /* Food.swift */,
+				83AA4C342B4ED4720073D3EE /* FoodTableViewCell.swift */,
+				83AA4C3E2B4FBF5A0073D3EE /* FoodDetailViewController.swift */,
 				83AA4C082B4EBD2D0073D3EE /* Main.storyboard */,
-				83AA4C0B2B4EBD2F0073D3EE /* Assets.xcassets */,
 				83AA4C0D2B4EBD2F0073D3EE /* LaunchScreen.storyboard */,
+				83AA4C0B2B4EBD2F0073D3EE /* Assets.xcassets */,
 				83AA4C102B4EBD2F0073D3EE /* Info.plist */,
 			);
 			path = TradTableViewToRxSwift1;
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AA4C292B4EBD2F0073D3EE /* Build configuration list for PBXNativeTarget "TradTableViewToRxSwift1" */;
 			buildPhases = (
+				033C46C02AA3BB24A88DD8A6 /* [CP] Check Pods Manifest.lock */,
 				83AA4BFB2B4EBD2D0073D3EE /* Sources */,
 				83AA4BFC2B4EBD2D0073D3EE /* Frameworks */,
 				83AA4BFD2B4EBD2D0073D3EE /* Resources */,
+				6F4A7212C3D8B8F4A8A532D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AA4C2C2B4EBD2F0073D3EE /* Build configuration list for PBXNativeTarget "TradTableViewToRxSwift1Tests" */;
 			buildPhases = (
+				31C9AF15675973778799EFCA /* [CP] Check Pods Manifest.lock */,
 				83AA4C112B4EBD2F0073D3EE /* Sources */,
 				83AA4C122B4EBD2F0073D3EE /* Frameworks */,
 				83AA4C132B4EBD2F0073D3EE /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AA4C2F2B4EBD2F0073D3EE /* Build configuration list for PBXNativeTarget "TradTableViewToRxSwift1UITests" */;
 			buildPhases = (
+				B723689ACBC4DA22CF796879 /* [CP] Check Pods Manifest.lock */,
 				83AA4C1B2B4EBD2F0073D3EE /* Sources */,
 				83AA4C1C2B4EBD2F0073D3EE /* Frameworks */,
 				83AA4C1D2B4EBD2F0073D3EE /* Resources */,
+				E4083DDFBE9DC897E9A7A737 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +307,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		033C46C02AA3BB24A88DD8A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradTableViewToRxSwift1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C9AF15675973778799EFCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradTableViewToRxSwift1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4A7212C3D8B8F4A8A532D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradTableViewToRxSwift1/Pods-TradTableViewToRxSwift1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradTableViewToRxSwift1/Pods-TradTableViewToRxSwift1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradTableViewToRxSwift1/Pods-TradTableViewToRxSwift1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B723689ACBC4DA22CF796879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4083DDFBE9DC897E9A7A737 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests/Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83AA4BFB2B4EBD2D0073D3EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AA4C352B4ED4720073D3EE /* FoodTableViewCell.swift in Sources */,
+				83AA4C3F2B4FBF5A0073D3EE /* FoodDetailViewController.swift in Sources */,
 				83AA4C072B4EBD2D0073D3EE /* ViewController.swift in Sources */,
+				83AA4C332B4ED4380073D3EE /* Food.swift in Sources */,
 				83AA4C032B4EBD2D0073D3EE /* AppDelegate.swift in Sources */,
 				83AA4C052B4EBD2D0073D3EE /* SceneDelegate.swift in Sources */,
 			);
@@ -437,12 +597,14 @@
 		};
 		83AA4C2A2B4EBD2F0073D3EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D890AC4BDAE9B82FAA6A55F9 /* Pods-TradTableViewToRxSwift1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BTG994US42;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TradTableViewToRxSwift1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -465,12 +627,14 @@
 		};
 		83AA4C2B2B4EBD2F0073D3EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7E1EA5F2E6C2DF7C82DECF /* Pods-TradTableViewToRxSwift1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BTG994US42;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TradTableViewToRxSwift1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,6 +657,7 @@
 		};
 		83AA4C2D2B4EBD2F0073D3EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F086555A9CD9DD286BDE691 /* Pods-TradTableViewToRxSwift1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +678,7 @@
 		};
 		83AA4C2E2B4EBD2F0073D3EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922F2B097BFC7DF2B777B50F /* Pods-TradTableViewToRxSwift1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,8 +699,9 @@
 		};
 		83AA4C302B4EBD2F0073D3EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBA2C14B54A9A1F47741F72 /* Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BTG994US42;
@@ -551,8 +718,9 @@
 		};
 		83AA4C312B4EBD2F0073D3EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A760479C02D507750BC338C /* Pods-TradTableViewToRxSwift1-TradTableViewToRxSwift1UITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BTG994US42;
